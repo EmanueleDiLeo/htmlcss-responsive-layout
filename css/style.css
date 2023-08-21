@@ -95,3 +95,16 @@ header{
 #planning{
   background-color: #9792e4;
 }
+
+/* ***************************** Testimonial */
+
+.card-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#testimonial .col{
+  flex-direction: column;
+}
