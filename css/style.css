@@ -17,14 +17,11 @@
   background-color: #b5ddff;
   border: 1px solid black;
   width: 100%;
-  height: 250px;
+  min-height: 250px;
 }
 
-.debug-big{
-  background-color: #b5ddff;
-  border: 1px solid black;
-  width: 100%;
-  height: 500px; 
+.row{
+  flex-direction: column;
 }
 
 .flex-direction{
@@ -59,16 +56,8 @@
   align-items: start;
 }
 
-.flex-column{
-  flex-direction: column;
-}
-
 .flex-shrink{
   flex-shrink: 0;
-}
-
-.flex-wrap{
-  flex-wrap: wrap;
 }
 
 /* ******************************************************** HEADER ********* */
@@ -84,6 +73,24 @@ header{
 
 #intro-main{
   padding: 30px 0;
+}
+
+.col{
+  padding: 10px;
+}
+
+.card-big{
+  background-color: #b5ddff;
+  border: 1px solid black;
+  width: 100%;
+  height: 500px; 
+}
+
+.card{
+  background-color: #b5ddff;
+  border: 1px solid black;
+  width: 100%;
+  min-height: 250px;
 }
 
 .half{
@@ -103,10 +110,15 @@ header{
 }
 
 .card-img{
+  margin: 20px 20px 30px 10px;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   background-color: white;
+}
+
+.card-text{
+  margin-left: 30px;
 }
 
 /* ************************* Benefits */
@@ -125,16 +137,60 @@ header{
 /* *************************** Started */
 
 #started{
- padding: 30px 0; 
+ padding: 20px 0; 
  background-color: #9792e4;
 }
 
-/* ************************** Footer */
+/* ************************************************** Footer *****************/
 footer{
   background-color: black;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 footer p{
   color: white;
 }
+
+
+/* **************************************************** RESPONSIVE ********/
+
+
+/* ************************* => 768px */
+
+@media screen and (min-width:768px){
+
+  #intro-main .row,
+  #benefits .row,
+  #about .row{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+ #intro-main .col{
+  width: calc(100% / 3 - 6px);
+ }
+
+ #intro-main #big.col{
+  width: calc(66% - 6px);
+ }
+
+ #testimonial .flex-direction{
+  flex-direction: row;
+ }
+
+ #benefits .col{
+  gap: 20px;
+  width: calc(100% / 2 - 4px);
+ }
+
+ #about .col{
+   width: calc(60% - 4px);
+ }
+ #about .col.flex-direction{
+  width: calc(40% - 4px);
+ }
+
+}
+
+
+
