@@ -13,6 +13,25 @@
   padding: 20px 40px;
 }
 
+.debug{
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 100%;
+  height: 250px;
+}
+
+.debug-big{
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.row{
+  flex-direction: column;
+}
+
 .flex{
   display: flex;
 }
@@ -52,3 +71,12 @@
 .flex-wrap{
   flex-wrap: wrap;
 }
+
+/* ******************************************************** HEADER ********* */
+
+header{
+  background-color: aqua;
+}
+
+
+/* *********************************************************** MAIN ********* */
