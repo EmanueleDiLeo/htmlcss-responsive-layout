@@ -9,8 +9,8 @@
 /* ************************************************************ UTILITY ***** */
 
 .container{
-  /* margin: 0 auto; */
-  padding: 20px 40px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .debug{
@@ -64,6 +64,7 @@
 
 header{
   background-color: #0084fd;
+  padding: 20px;
 }
 
 
@@ -167,11 +168,11 @@ footer p{
   }
 
  #intro-main .col{
-  width: calc(100% / 3 - 6px);
+  width: calc(100% / 3);
  }
 
  #intro-main #big.col{
-  width: calc(66% - 6px);
+  width: calc(100% / 3 * 2);
  }
 
  #testimonial .flex-direction{
@@ -180,17 +181,52 @@ footer p{
 
  #benefits .col{
   gap: 20px;
-  width: calc(100% / 2 - 4px);
+  width: calc(100% / 2);
  }
 
  #about .col{
-   width: calc(60% - 4px);
+   width: calc(60%);
  }
  #about .col.flex-direction{
-  width: calc(40% - 4px);
+  width: calc(40%);
  }
 
 }
 
+
+/************************************** >= 1200px  */
+
+@media screen and (min-width:1200px){
+
+  .container{
+    max-width: 1100px;
+  }
+
+  .card-big{
+    display: flex;
+  }
+
+  .half{
+    height: 100%;
+    width: 50%;
+  }
+
+  #planning .container{
+    max-width: 900px;
+  }
+
+  #planning .row{
+    flex-direction: row;
+  }
+
+  #planning .col{
+    width: 50%;
+  }
+
+  #benefits .col{
+    width: calc(100% / 3);
+  }
+
+}
 
 
