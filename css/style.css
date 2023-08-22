@@ -181,6 +181,48 @@ header a{
 /* ***************************** Planning */
 
 #planning{
+  padding: 30px;
+  background-color: #9792e4;
+}
+
+#planning p{
+  padding: 40px 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+#planning .card-app p{
+  font-style: italic;
+}
+
+.card-planning img{
+  width: 100%;
+  padding-bottom: 80px;
+}
+.card-app img{
+  width: 100%;
+}
+
+.card-planning{
+  color: white;
+}
+
+.card-app{
+  text-align: center;
+  background-color: white;
+  border-radius: 40px;
+  padding: 30px 20px;
+}
+
+#planning .col{
+  padding: 20px;
+}
+
+#planning a{
+  color: black;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
   background-color: #9792e4;
 }
 
@@ -314,6 +356,19 @@ footer p{
   .menu{
     display: block;
   }
+
+  .card-app img{
+    width: 250px;
+  }
+
+  .card-top{
+    height: 20%;
+  }
+
+  .card-bot{
+    height: 80%;
+  }
+  
 }
 
 
