@@ -363,8 +363,9 @@ header a{
 }
 
 #started p{
-  padding: 35px;
+  padding: 35px 130px;
   line-height: 1.5;
+  font-size: 0.8rem;
 }
 
 #started span{
@@ -383,6 +384,11 @@ header a{
   
 }
 
+#started i{
+  padding: 0 5px;
+  font-size: 0.5rem;
+}
+
 #started h4,
 #started p,
 #started a
@@ -392,13 +398,21 @@ color: white;
 
 /* ************************************************** Footer *****************/
 footer{
-  background-color: black;
+  background-color: #333333;
   padding: 10px 0;
 }
 
 footer p{
   color: white;
+  padding: 35px 130px;
+  line-height: 1.5;
+  font-size: 0.8rem;
 }
+
+footer a{
+  color: #9792e4;
+}
+
 
 
 /* **************************************************** RESPONSIVE ********/
