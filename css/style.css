@@ -363,7 +363,7 @@ header a{
 }
 
 #started p{
-  padding: 35px 130px;
+  padding: 35px 30px;
   line-height: 1.5;
   font-size: 0.8rem;
 }
@@ -404,7 +404,7 @@ footer{
 
 footer p{
   color: white;
-  padding: 35px 130px;
+  padding: 35px 30px;
   line-height: 1.5;
   font-size: 0.8rem;
 }
@@ -458,6 +458,12 @@ footer a{
  #about .col.flex-direction{
   width: 35%;
  }
+
+ #started p,
+ footer p{
+  padding: 35px 130px;
+ }
+
 
 }
 
