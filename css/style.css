@@ -263,6 +263,45 @@ header a{
   background-color: #9792e4;
 }
 
+
+#benefits h2{
+  color: white;
+  font-size: 2rem;
+  padding: 30px;
+}
+
+#benefits .card-benefits h2{
+  color: #9792e4;
+  font-size: 3rem;
+  padding: 0;
+}
+
+#benefits .card-benefits h3{
+  color: #9792e4;
+  padding-top: 20px;
+}
+
+#benefits .card-benefits p{
+  padding: 20px 0 40px 0;
+  line-height: 1.5;
+}
+
+#benefits .card-benefits a{
+  text-decoration: none;
+  color: white;
+  background-color: #9792e4;
+  padding: 8px 40px;
+  border-radius: 20px;
+}
+
+.card-benefits{
+  padding: 50px 25px;
+  background-color: white;
+  border-radius: 15px;
+
+}
+
+
 /* **************************** About */
 
 #about{
