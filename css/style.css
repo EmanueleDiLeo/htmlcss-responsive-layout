@@ -157,23 +157,13 @@ header a{
 .card-big{
   background-color: #b5ddff;
   border-radius: 20px;
-  padding: auto 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
 .half img{
   width: 220px;
-}
-
-.position-img{
-  position: relative;
-  padding:0px 30px 300px 30px;
-}
-
-.position-absolute{
-  position: absolute;
-  bottom: 28px;
-  left: 10%;
+  padding-top: 30px;
 }
 
 .card{
@@ -324,16 +314,6 @@ footer p{
   .menu{
     display: block;
   }
-
-  .position-img{
-    padding:0px 30px 380px 30px;
-  }
-
-  .position-absolute{
-    bottom: 0px;
-    left: 10%;
-  }
-
 }
 
 
