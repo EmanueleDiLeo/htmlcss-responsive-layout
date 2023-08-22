@@ -116,8 +116,8 @@ header a{
 
 #intro-main h2{
   color: #0084fd;
-  padding-top: 30px;
-  padding-left: 20px;
+  padding: 30px 20px 0 20px;
+
   font-size: 1.5rem;
 }
 
@@ -126,8 +126,7 @@ header a{
 }
 
 #intro-main p{
-  padding: 30px 20px;
-  font-size: 1.2rem;
+  margin: 30px 20px;
   color: #5a6e7f;
   line-height: 1.5;
 }
@@ -146,27 +145,43 @@ header a{
   padding-left: 8px;
 }
 
-.fa-apple{
+#intro-main .fa-solid{
+  color: #0084fd;
+  font-size: 4rem;
+}
+
+#intro-main .fa-solid.fa-apple{
   color: white;
 }
 
 .card-big{
   background-color: #b5ddff;
   border-radius: 20px;
-  padding: 14px;
+  padding: auto 10px;
   width: 100%;
 }
 
 .half img{
-  padding: 70px 30px 0px 20px;
   width: 220px;
 }
 
+.position-img{
+  position: relative;
+  padding:0px 30px 300px 30px;
+}
+
+.position-absolute{
+  position: absolute;
+  bottom: 28px;
+  left: 10%;
+}
+
 .card{
+  padding-top: 20px;
   background-color: #b5ddff;
   border-radius: 20px;
   width: 100%;
-  min-height: 250px;
+  text-align: center;
 }
 
 .half{
@@ -308,6 +323,15 @@ footer p{
 
   .menu{
     display: block;
+  }
+
+  .position-img{
+    padding:0px 30px 380px 30px;
+  }
+
+  .position-absolute{
+    bottom: 0px;
+    left: 10%;
   }
 
 }
