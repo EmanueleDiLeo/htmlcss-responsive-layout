@@ -3,10 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"/>
+
   <link rel="stylesheet" href="css/style.css">
+
   <title>Responsive Layout</title>
 </head>
 <body>
@@ -14,11 +19,21 @@
   <header>
     <section class="flex justify-between container">
       <div>
-        Logo
+        <img src="img/logo.png" alt="logo">
       </div>
       <div>
-        <nav class="icon">Icona</nav>
-        <nav class="menu">Menu</nav>
+        <nav class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+        <nav class="menu">
+          <ul class="flex">
+            <li><a href="#">Planning</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" class="button">Get Started</a></li>
+          </ul>
+        </nav>
       </div>
     </section>
   </header>
@@ -33,8 +48,29 @@
         <div class="row flex">
           <div id="big" class="col flex">
             <div class="card-big">
-              <div class="half">s</div>
-              <div class="half">d</div>
+              <div class="half">
+                <h2>
+                  <strong>
+                    Get a demo application
+                  </strong>
+                </h2>
+                <p>
+                  <strong>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint  
+                  mollitia reiciendis quae soluta quod, facilis aliquid dolores 
+                  sequi. Perspiciatis, unde.
+                </strong>
+                </p>
+                <a href="#">
+                  <i class="fa-brands fa-apple"></i>
+                  <strong>App Store</strong>
+                </a>
+              </div>
+              <div class="half">
+                <div class="position-relative">
+                  <img class="position-" src="img/phone.png" alt="phone">
+                </div>
+              </div>
             </div>
           </div>
           <div class="col flex">
