@@ -354,6 +354,42 @@ header a{
  background-color: #9792e4;
 }
 
+#started .button{
+  text-decoration: none;
+  padding: 16px 60px;
+  background-color: white;
+  border-radius: 30px;
+  color: #9792e4;
+}
+
+#started p{
+  padding: 35px;
+  line-height: 1.5;
+}
+
+#started span{
+  color: #c3c1ef;
+}
+
+#started h4{
+  font-size: 2rem;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+#started h2{
+  font-size: 4.5rem;
+  color: #fdc15f;
+  
+}
+
+#started h4,
+#started p,
+#started a
+{
+color: white;
+}
+
 /* ************************************************** Footer *****************/
 footer{
   background-color: black;
@@ -371,6 +407,12 @@ footer p{
 /* ************************* => 768px */
 
 @media screen and (min-width:768px){
+
+  footer .container,
+  #started .container
+  {
+    max-width: 600px;
+  }
 
   #intro-main .row,
   #benefits .row,
