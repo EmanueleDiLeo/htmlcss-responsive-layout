@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+
 /* ************************************************************ UTILITY ***** */
 
 .container{
@@ -65,6 +69,10 @@
 header{
   background-color: #0084fd;
   padding: 20px;
+}
+
+.menu{
+  display: none;
 }
 
 
@@ -225,6 +233,14 @@ footer p{
 
   #benefits .col{
     width: calc(100% / 3);
+  }
+
+  .icon{
+    display: none;
+  }
+
+  .menu{
+    display: block;
   }
 
 }
