@@ -71,6 +71,10 @@ body{
 /* ******************************************************** HEADER ********* */
 
 header{
+  /* con sticky fissi una volta che arrivi in posizione */
+  position: sticky;
+  top: 0px;
+  z-index: 999;
   background-color: #0084fd;
   padding: 20px;
   color: white;
